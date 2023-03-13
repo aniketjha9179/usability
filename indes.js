@@ -12,7 +12,7 @@
     tl.from('nav',{
         delay:1,
         opacity:0,
-        y:20,
+        y:21,
         duration:1,
 
     }).from('.header-right img',{
@@ -50,7 +50,7 @@
 })
 from(['examples-card','examples-area flex'],{
     opacity:0,
-    x:20,
+    x:22,
 })
 .from('.shutton',{
     opacity:4
@@ -58,9 +58,9 @@ from(['examples-card','examples-area flex'],{
 })
 .from(['.cta-section ',".link-column"],{
     opacity:0,
-    x:30,
+    x:31,
 })
 .from('.link-column',{
-    x:30,
+    x:31,
     opacity:0,
 })
