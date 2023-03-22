@@ -358,4 +358,48 @@ footer{
     gap: 30px;
     flex-wrap: wrap;
 }
+body{
+
+    background-color: rgb(187, 229, 239);
+    padding: 40px;
+    font-family: monospace;
+    line-height: 1.6rem;
+}
+.accrodian{
+    background-color: rgb(250, 249, 249);
+    padding: 4px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgb(95, 77, 77);
+    cursor: pointer;
+}
+
+.question{
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+.icon{
+    margin-right: 16px;
+    transition: transform 0.2s;
+
+} 
+.icon.active{
+    transform: rotate(-180deg);
+
+}
+
+.answer{
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .2s;
+
+
+}
+
+
 
